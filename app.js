@@ -1,5 +1,4 @@
 const express = require('express');
-//const bodyParser = require('body-parser');
 const Response = require('./utils/response');
 const { ApplicationError } = require("./utils/custom-error");
 
