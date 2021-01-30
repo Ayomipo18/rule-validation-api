@@ -1,0 +1,20 @@
+{
+  "name": "rule-validation-api",
+  "version": "1.0.0",
+  "description": "a simple rule validation api",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "Ayomipo Solaja",
+  "license": "ISC"
+}
